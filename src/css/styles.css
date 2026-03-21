@@ -173,6 +173,7 @@ a.btn {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     border-radius: 32px;
 
+
     .title{
         color: var(--color-neutral-0);
 
@@ -221,6 +222,7 @@ a.btn {
         }
     }
 }
+
 
 #products {
     padding: 48px 8%;
@@ -289,9 +291,29 @@ a.btn {
     }
 }
 
+.btn-whatsapp {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+    transform: translateY(-2px) scale(1.03);
+}
+
+.btn-whatsapp:active {
+    transform: scale(0.97);
+}
+
+.btn-instagram {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
 @media (min-width: 768px) {
     #container {
-        background-image: url(../images/background-desktop.png);
+        background-image: url(../images/background-desktop1.png);
         background-size: cover;
         background-position: start;
         background-repeat: no-repeat;
